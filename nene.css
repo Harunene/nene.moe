@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: #A9BA9D;
+}
+
+.content {
+  border-radius: 1rem;
+  width: 50%;
+  aspect-ratio: 2048 / 1284;
+  background: no-repeat url("./nene.jpg");
+  background-size: contain;
+}
+
+@media only screen and (max-width: 800px) {
+  .content {
+    width: 70%;
+  }
+}
