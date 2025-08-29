@@ -1,0 +1,10 @@
+{
+  "name": "nene.moe",
+  "private": true,
+  "scripts": {
+    "build": "bun run build.ts",
+    "build:base": "bun run build --base"
+  }
+}
+
+
